@@ -1,2 +1,2 @@
 # Capstone_Project
-project is related to python numpy
+project is related to python numpy and pandas
