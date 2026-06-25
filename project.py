@@ -17,7 +17,7 @@ print(data.shape)
 #droping unnecesarry column
 data.drop(columns=colm_to_drop,inplace=True)
 
-"""#reaname of colm
+#reaname of colm
 data.rename(columns={"NAME":"Name"},inplace=True)
 
 for_lower=[]
@@ -36,7 +36,7 @@ print(data.duplicated().sum())#show only duplicate values in boolean format true
 
 remove_duplicates=data.drop_duplicates(inplace=True)
 
-print(data.duplicated().sum())"""
+print(data.duplicated().sum())
 
 #removing nan values
 data.drop(columns=["last review"],inplace=True)
